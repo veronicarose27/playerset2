@@ -1,7 +1,7 @@
-m,l=map(int,input().split())
-n,k=map(int,input().split())
-p,r=map(int,input().split())
-if(m==n and n==p) or (l==k and k==r):
-    print("yes")
+l,t=map(int,input().split(" "))
+r,s=map(int,input().split(" "))
+a,b=map(int,input().split(" "))
+if((l==r==a) or (l==t) or (r==s) or (a==b)):
+     print("yes")
 else:
-    print("no")
+     print("no")
